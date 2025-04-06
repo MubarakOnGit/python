@@ -1,32 +1,27 @@
-# strings
-course = 'Python Programming'
-print(len(course))
-print(course[0])
-print(course[-1]) # end of the string
-print(course[0:3])
-print(course[0:])
-print(course[:3])
-print(course[:])
+# Numbers
+import  math
+x = 1
+print(x)
+x = 1.1
+print(x)
+x = 1 + 2j  # a + bi complex number
+print(x)
 
-course = 'Python \"Programming' # escape character
-course = 'Python \nProgramming' # new line
-print(course)
+print(1 + 1)
+print(1 - 1)
+print(1 * 1)
+print(1 / 1)
+print(1 // 1) # to get without floating
 
-first = 'Mohammed'
-last = 'Mubarak'
-full = first + ' ' + last
-print(full)
-full = f"{first} {last}"
-print(full)
+x = 10
+print(x)
+x = x + 3
+print(x)
+x += 3
+print(x)
 
-course = 'Python Programming'
-print(course.upper()) # with '.' after a function we can find available methods
-print(course) # the original not effected
-print(course.lower())
-print(course.title())
-print(course.strip()) # trim the space end and starting
-print(course.find('pro'))
-print(course.replace('P', 'j'))
-print('Pro' in course) # True
-print('Pro' not in course) # False
+
+print(round(2.9))
+print(abs(-2.9))
+print(math.ceil(2.2)) # https://docs.python.org/3/library/math.html - all the math functions
 
